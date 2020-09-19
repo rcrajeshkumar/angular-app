@@ -1,0 +1,25 @@
+.play-container {
+    padding: 3em;
+    border: 1px solid lightgray;
+    margin-bottom: 1em;
+
+    input {
+        padding: 1em;
+        margin-bottom: 2em;
+    }
+}
+span {
+    font-weight: bold;
+    background: lightgray;
+    padding: .3em .8em;
+    cursor: pointer;
+}
+
+
+.active {
+    background-color: yellow;
+    border: 2px solid #000;
+}
+.notActive {
+    background-color: lightgray;
+}
